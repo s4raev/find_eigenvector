@@ -12,7 +12,7 @@ A = np.array([
     [3, -2],
     [-4, 1]
 ], dtype=float)
-print(get_eig(A))
+values, vectors = get_eig(A)
 
 test_matrix(A)
 ```
